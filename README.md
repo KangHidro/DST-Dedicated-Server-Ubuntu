@@ -1,3 +1,5 @@
+# Tutorial
+
 sudo passwd (change passwd)
 
 su
@@ -103,3 +105,44 @@ screen -x "w"
 --------------------------------
 Update mods only:
 $HOME/dontstarvetogether_dedicated_server/bin/dontstarve_dedicated_server_nullrenderer -only_update_server_mods
+
+
+whitelist.txt
+
+Arcane: 󰀀
+Beefalo: 󰀁
+Chest: 󰀂
+Chester: 󰀃
+Cockpot: 󰀄
+Eyeball: 󰀅
+Fake Teeth: 󰀆
+Farm: 󰀇
+Fire: 󰀈
+Ghost: 󰀉
+Grave: 󰀊
+Hambat: 󰀋
+Hammer: 󰀌
+Heart: 󰀍
+Hunger: 󰀎
+Lightbulb: 󰀏
+Pig: 󰀐
+Poop: 󰀑
+Red Gem: 󰀒
+Sanity: 󰀓
+Science Machine: 󰀔
+Skull: 󰀕
+Top Hat: 󰀖
+Web: 󰀗
+Torch: 󰀛
+Gold Nugget: 󰀚
+Swords: 󰀘
+Muscle: 󰀙
+
+c_announce("Hello!")
+
+c_regenerateworld()
+
+c_supergodmode("KU_3RvV9eZM")
+
+TheNet:Kick(KU_qE7e88Y0)
+ThePlayer.AnimState:SetMultColour(0,0,0,0)
