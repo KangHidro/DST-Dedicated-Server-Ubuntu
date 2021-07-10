@@ -1,5 +1,3 @@
-# Tutorial
-
 sudo passwd (change passwd)
 
 su
@@ -87,8 +85,10 @@ run_shared+=(-monitor_parent_process $$)
 #//////////////////////////////////////////////////////////////////////
 
 Add admin to Cluster:
+echo "KU_L3IC3_x6" >>$HOME/.klei/DoNotStarveTogether/Cluster_1/adminlist.txt  Kang
 echo "KU_Oj9k13ZX" >>$HOME/.klei/DoNotStarveTogether/Cluster_1/adminlist.txt
 echo "KU_3RvV9eZM" >>$HOME/.klei/DoNotStarveTogether/Cluster_1/adminlist.txt
+
 
 chmod 777 $HOME/.klei/DoNotStarveTogether/Cluster_1/adminlist.txt
 
