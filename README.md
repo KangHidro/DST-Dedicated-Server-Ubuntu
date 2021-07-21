@@ -1,3 +1,5 @@
+# DST-Dedicated-Server-Ubuntu
+
 sudo passwd (change passwd)
 
 su
@@ -25,13 +27,14 @@ Run "export-workshop.exe" to generate "dedicated_server_mods_setup.lua"
 
 Compress as ZIP, (With parent folder)
 
-Upload, default to /home/<username>; eg. /home/dananggiatruyenbavan/
-then Unzip: unzip/home/<username>/<file>.zip; Eg. unzip /home/dananggiatruyenbavan/d.zip
+Upload, default to /home/<username>
+Now you currently are in /home/<username>
+then Unzip: unzip <file>.zip; Eg. unzip d.zip
 And copy to ~/.klei/DoNotStarveTogether:
 mkdir -p ~/.klei/DoNotStarveTogether/Cluster_1
-cp -a /home/dananggiatruyenbavan/d/* ~/.klei/DoNotStarveTogether/Cluster_1
+cp -a d/* ~/.klei/DoNotStarveTogether/Cluster_1
 
-cp /home/dananggiatruyenbavan/d/dedicated_server_mods_setup.lua $HOME/dontstarvetogether_dedicated_server/mods
+cp d/dedicated_server_mods_setup.lua $HOME/dontstarvetogether_dedicated_server/mods
 
 cd ~
 
