@@ -1,26 +1,27 @@
 # DST-Dedicated-Server-Ubuntu
 
-sudo passwd (change passwd)
+`sudo passwd` (change passwd)
 
-su
+`su`
 
-dpkg --add-architecture i386;
+`dpkg --add-architecture i386;`
 
-apt update && apt upgrade
+`apt update && apt upgrade`
 
-apt install libstdc++6:i386 libgcc1:i386 libcurl4-gnutls-dev:i386 wget screen unzip
+`apt install libstdc++6:i386 libgcc1:i386 libcurl4-gnutls-dev:i386 wget screen unzip`
 
-/sbin/sysctl -w net.ipv4.tcp_keepalive_time=60 net.ipv4.tcp_keepalive_intvl=60 net.ipv4.tcp_keepalive_probes=5
+`/sbin/sysctl -w net.ipv4.tcp_keepalive_time=60 net.ipv4.tcp_keepalive_intvl=60 net.ipv4.tcp_keepalive_probes=5`
 
-mkdir -p ~/steamcmd/ && cd ~/steamcmd/
+`mkdir -p ~/steamcmd/ && cd ~/steamcmd/`
 
-wget "https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz" && tar -xvzf steamcmd_linux.tar.gz
+`wget "https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz" && tar -xvzf steamcmd_linux.tar.gz`
 
 https://accounts.klei.com/ => creare token
 
 Create a game from your PC
 
-Open Documents/Klei/DoNotStarveTogether/
+Open `Documents/Klei/DoNotStarveTogether/`
+
 Open game Folder (Cluster_xxx)
 
 Run "export-workshop.au3" to generate "dedicated_server_mods_setup.lua"
@@ -28,21 +29,28 @@ Run "export-workshop.au3" to generate "dedicated_server_mods_setup.lua"
 Compress as ZIP, (With parent folder)
 
 Upload, default to /home/<username>
+
 Now you currently are in /home/<username>
-then Unzip: unzip <file>.zip; Eg. unzip d.zip
-And copy to ~/.klei/DoNotStarveTogether:
-mkdir -p ~/.klei/DoNotStarveTogether/Cluster_1
-cp -a d/* ~/.klei/DoNotStarveTogether/Cluster_1
 
-cp d/dedicated_server_mods_setup.lua $HOME/dontstarvetogether_dedicated_server/mods
+then Unzip: `unzip <file>.zip`; Eg. `unzip d.zip`
 
-cd ~
+And copy to `~/.klei/DoNotStarveTogether`:
 
-vi ~/run_dedicated_servers.sh
+`mkdir -p ~/.klei/DoNotStarveTogether/Cluster_1`
 
+`cp -a d/* ~/.klei/DoNotStarveTogether/Cluster_1`
+
+`cp d/dedicated_server_mods_setup.lua $HOME/dontstarvetogether_dedicated_server/mods`
+
+`cd ~`
+
+`vi ~/run_dedicated_servers.sh`
+
+```
 #//////////////////////////////////////////////////////////////////////
 #// Change cluster_name variable
 #//////////////////////////////////////////////////////////////////////
+
 #!/bin/bash
 
 steamcmd_dir="$HOME/steamcmd"
@@ -86,57 +94,93 @@ run_shared+=(-monitor_parent_process $$)
 "${run_shared[@]}" -shard Master | sed 's/^/Master: /'
 
 #//////////////////////////////////////////////////////////////////////
+```
 
 Add admin to Cluster:
-echo "KU_L3IC3_x6" >>$HOME/.klei/DoNotStarveTogether/Cluster_1/adminlist.txt  #Kang
 
-chmod 777 $HOME/.klei/DoNotStarveTogether/Cluster_1/adminlist.txt
+`echo "KU_L3IC3_x6" >>$HOME/.klei/DoNotStarveTogether/Cluster_1/adminlist.txt`  #Kang
 
-chmod u+x ~/run_dedicated_servers.sh
+`chmod 777 $HOME/.klei/DoNotStarveTogether/Cluster_1/adminlist.txt`
+
+`chmod u+x ~/run_dedicated_servers.sh`
 
 ****** START ******
-screen -S "w"
-~/run_dedicated_servers.sh
 
-Detach screen: Ctrl A + Ctrl D
-Attach screen: screen -x "w"
+`screen -S "w"`
+
+`~/run_dedicated_servers.sh`
+
+********************
+
+Detach screen: `Ctrl A` + `Ctrl D`
+
+Attach screen: `screen -x "w"`
 
 
 --------------------------------
 Update mods only:
-$HOME/dontstarvetogether_dedicated_server/bin/dontstarve_dedicated_server_nullrenderer -only_update_server_mods
+
+`$HOME/dontstarvetogether_dedicated_server/bin/dontstarve_dedicated_server_nullrenderer -only_update_server_mods`
 
 
 whitelist.txt
 
 Icon:
+
 Arcane: 󰀀
+
 Beefalo: 󰀁
+
 Chest: 󰀂
+
 Chester: 󰀃
+
 Cockpot: 󰀄
+
 Eyeball: 󰀅
+
 Fake Teeth: 󰀆
+
 Farm: 󰀇
+
 Fire: 󰀈
+
 Ghost: 󰀉
+
 Grave: 󰀊
+
 Hambat: 󰀋
+
 Hammer: 󰀌
+
 Heart: 󰀍
+
 Hunger: 󰀎
+
 Lightbulb: 󰀏
+
 Pig: 󰀐
+
 Poop: 󰀑
+
 Red Gem: 󰀒
+
 Sanity: 󰀓
+
 Science Machine: 󰀔
+
 Skull: 󰀕
+
 Top Hat: 󰀖
+
 Web: 󰀗
+
 Torch: 󰀛
+
 Gold Nugget: 󰀚
+
 Swords: 󰀘
+
 Muscle: 󰀙
 
 c_announce("Hello!")
@@ -146,4 +190,5 @@ c_regenerateworld()
 c_supergodmode("KU_3RvV9eZM")
 
 TheNet:Kick(KU_qE7e88Y0)
+
 ThePlayer.AnimState:SetMultColour(0,0,0,0)
