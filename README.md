@@ -23,7 +23,7 @@ Create a game from your PC
 Open Documents/Klei/DoNotStarveTogether/
 Open game Folder (Cluster_xxx)
 
-Run "export-workshop.exe" to generate "dedicated_server_mods_setup.lua"
+Run "export-workshop.au3" to generate "dedicated_server_mods_setup.lua"
 
 Compress as ZIP, (With parent folder)
 
@@ -88,10 +88,7 @@ run_shared+=(-monitor_parent_process $$)
 #//////////////////////////////////////////////////////////////////////
 
 Add admin to Cluster:
-echo "KU_L3IC3_x6" >>$HOME/.klei/DoNotStarveTogether/Cluster_1/adminlist.txt  Kang
-echo "KU_Oj9k13ZX" >>$HOME/.klei/DoNotStarveTogether/Cluster_1/adminlist.txt
-echo "KU_3RvV9eZM" >>$HOME/.klei/DoNotStarveTogether/Cluster_1/adminlist.txt
-
+echo "KU_L3IC3_x6" >>$HOME/.klei/DoNotStarveTogether/Cluster_1/adminlist.txt  #Kang
 
 chmod 777 $HOME/.klei/DoNotStarveTogether/Cluster_1/adminlist.txt
 
@@ -101,8 +98,8 @@ chmod u+x ~/run_dedicated_servers.sh
 screen -S "w"
 ~/run_dedicated_servers.sh
 
-Ctrl A + Ctrl D
-screen -x "w"
+Detach screen: Ctrl A + Ctrl D
+Attach screen: screen -x "w"
 
 
 --------------------------------
@@ -112,6 +109,7 @@ $HOME/dontstarvetogether_dedicated_server/bin/dontstarve_dedicated_server_nullre
 
 whitelist.txt
 
+Icon:
 Arcane: 󰀀
 Beefalo: 󰀁
 Chest: 󰀂
