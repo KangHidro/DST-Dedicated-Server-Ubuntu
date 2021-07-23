@@ -1,5 +1,7 @@
 # DST-Dedicated-Server-Ubuntu
 
+_For Windows:_ https://dont-starve-game.fandom.com/vi/wiki/Dedicated_server
+
 `sudo passwd` (change passwd)
 
 `su`
