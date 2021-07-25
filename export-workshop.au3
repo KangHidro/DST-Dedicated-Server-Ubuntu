@@ -1,9 +1,11 @@
 #include <Array.au3>
 #include <File.au3>
 
-Local $aArray = FileReadToArray("Cluster_4\Master\modoverrides.lua")
+Local $aArray = FileReadToArray("modoverrides.lua")
 
 Local Const $sFilePath = "dedicated_server_mods_setup.lua"
+
+FileDelete($sFilePath);
 
 Local $hFileOpen = FileOpen($sFilePath, $FO_APPEND)
 
