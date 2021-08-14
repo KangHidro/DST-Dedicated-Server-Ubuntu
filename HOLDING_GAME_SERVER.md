@@ -1,4 +1,4 @@
-Requirement VPS: 02 chip N2/N2D, 8GB RAM, 15GB SSD, allow HTTP/HTTPS, Nearest region
+Requirement VPS: Ubuntu 20 LTS, 02 chip N2/N2D, 8GB RAM, 15GB SSD, allow HTTP/HTTPS, Nearest region
 
 Command:
 
