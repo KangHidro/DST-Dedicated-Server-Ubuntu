@@ -204,6 +204,10 @@ Thoát ra khỏi Screen (và chạy ngầm): Bấm `Ctrl A` + `Ctrl D`
 
 Sau đó chạy lại `~/run_dedicated_servers.sh` là được.
 
+## XOÁ VPS
+
+Đặt lịch nhắc trước 1 ngày, hết thời hạn 90 ngày vào tài khoản Google cloud, xoá VPS, xoá billing, gỡ thẻ. Tạo tài khoản mới dùng lại thẻ cũ được.
+
 ## ICON TRONG GAME & MỘT SỐ THỨ LINH TINH:
 
 Arcane: 󰀀
