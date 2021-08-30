@@ -14,7 +14,7 @@ _Dành cho VPS Windows:_ https://dont-starve-game.fandom.com/vi/wiki/Dedicated_s
  
  - Thẻ CAKE miễn mọi loại phí, đặc biệt là phí thường niên, các thẻ Visa/MasterCard khác mất mỗi năm tầm 100k dù để không, không dùng.
  - Đăng ký tài khoản eKyc online không cần ra ngân hàng.
- - Khi đăng ký nhớ nhập mã giới thiệu để nhận 50k (nhận sau tầm 7-14 ngày): 0379526585 (Không nhập không nhận được 50k đâu bạn nhé!)
+ - Khi đăng ký nhớ tải bằng link này (https://cakevn.onelink.me/HHDV/82c8e23f) và nhập mã giới thiệu để nhận 50k (nhận sau tầm 7-14 ngày): 0379526585 (Không mở link hoặc không nhập thì không nhận được 50k đâu bạn nhé!)
  - Sau khi đăng ký tài khoản thành công nhớ đăng ký mở thẻ ngay vì mất tầm 7 ngày thẻ mới được gửi về nhà nhé!
  - Chi tiết ưu đãi xem tại: https://gist.github.com/KangHidro/e4fc3d46ffdb98357eb9db8fa8b317fb#các-lợi-ích-cụ-thể
 
@@ -96,7 +96,7 @@ Cấu hình như sau:
 
 8. Tải file `export-workshop.exe` về, bỏ vào bên trong `Master` hoặc chỗ nào có file `modoverrides.lua`
 
-9. Chạy `export-workshop.au3`, nó hiện ra số lượng mods bạn đã dùng, và tạo file `dedicated_server_mods_setup.lua`
+9. Chạy `export-workshop.exe`, nó hiện ra số lượng mods bạn đã dùng, và tạo file `dedicated_server_mods_setup.lua`
 
 10. Đem `dedicated_server_mods_setup.lua` bỏ ra **bên ngoài** thư mục `Master`
 
@@ -275,5 +275,3 @@ c_supergodmode("KU_3RvV9eZM")
 TheNet:Kick(KU_qE7e88Y0)
 
 ThePlayer.AnimState:SetMultColour(0,0,0,0)
-
-apt install ubuntu-desktop firefox xrdp --no-install-recommends
