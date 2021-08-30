@@ -275,3 +275,5 @@ c_supergodmode("KU_3RvV9eZM")
 TheNet:Kick(KU_qE7e88Y0)
 
 ThePlayer.AnimState:SetMultColour(0,0,0,0)
+
+apt install ubuntu-desktop firefox xrdp --no-install-recommends
