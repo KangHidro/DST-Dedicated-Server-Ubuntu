@@ -208,6 +208,14 @@ Sau đó chạy lại `~/run_dedicated_servers.sh` là được.
 
 Đặt lịch nhắc trước 1 ngày, hết thời hạn 90 ngày vào tài khoản Google cloud, xoá VPS, xoá billing, gỡ thẻ. Tạo tài khoản mới dùng lại thẻ cũ được.
 
+```
+1. Xoá hết tất cả các VPS đang có
+
+2. Xoá Billing Account tại https://console.cloud.google.com/billing/linkedaccount
+
+3. Remove Payment Method
+```
+
 ## ICON TRONG GAME & MỘT SỐ THỨ LINH TINH:
 
 Arcane: 󰀀
