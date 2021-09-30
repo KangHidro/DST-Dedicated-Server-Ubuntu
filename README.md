@@ -14,7 +14,6 @@ _Dành cho VPS Windows:_ https://dont-starve-game.fandom.com/vi/wiki/Dedicated_s
  
  - Thẻ CAKE miễn mọi loại phí, đặc biệt là phí thường niên, các thẻ Visa/MasterCard khác mất mỗi năm tầm 100k dù để không, không dùng.
  - Đăng ký tài khoản eKyc online không cần ra ngân hàng.
- - Khi đăng ký nhớ tải bằng link này (https://cakevn.onelink.me/HHDV/82c8e23f) và nhập mã giới thiệu để nhận 50k (nhận sau tầm 7-14 ngày): 0379526585 (Không mở link hoặc không nhập thì không nhận được 50k đâu bạn nhé!)
  - Sau khi đăng ký tài khoản thành công nhớ đăng ký mở thẻ ngay vì mất tầm 7 ngày thẻ mới được gửi về nhà nhé!
  - Chi tiết ưu đãi xem tại: https://gist.github.com/KangHidro/e4fc3d46ffdb98357eb9db8fa8b317fb#các-lợi-ích-cụ-thể
 
