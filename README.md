@@ -211,9 +211,15 @@ Sau đó chạy lại `~/run_dedicated_servers.sh` là được.
 ```
 1. Xoá hết tất cả các VPS đang có
 
-2. Xoá Billing Account tại https://console.cloud.google.com/billing/linkedaccount
+2. Close Billing Account:
+- Truy cập https://console.cloud.google.com/billing/linkedaccount
+→ Trang tự chuyển hướng
+→ Thêm "/manage" vào cuối URL, trước dấu "?" nếu có
+→ Enter
+→ Chọn dấu 3 chấm dọc và chọn Disable Billing
+→ Bấm vào icon (X) gần bên trên ở giữa (bên phải RENAME BILLING ACCOUNT)
 
-3. Remove Payment Method
+3. Remove Payment Method: Lướt thanh panel bên trái tìm Payment Method → Bấm Remove tại thẻ thanh toán
 ```
 
 ## ICON TRONG GAME & MỘT SỐ THỨ LINH TINH:
